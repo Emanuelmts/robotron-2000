@@ -1,11 +1,11 @@
+const botoes = document.querySelectorAll(".botao")
 
+botoes.forEach( (elemento) => {
+    elemento.addEventListener("click", (evento) => {
+        mudaCor(evento.target.id)
+    })
+}) 
 
-const imagem = document.getElementById("robo")
-
-function mudaCor(pic) {
-    pic.setAttribute("src", "../img/Robotron2000-Vermelho/Robotron 2000 - Vermelho.png")
+function mudaCor(cor){
+    document.querySelector(".robo-imagem").src="img/" + cor + "/Robotron 2000 - " + cor + ".png";
 }
-
-document.getElementById("robotron__cor-vermelho").addEventListener("click", () => {
-    mudaCor(imagem)
-})

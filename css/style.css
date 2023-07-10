@@ -87,7 +87,37 @@ main {
     transition: 1s box-shadow;
     border-radius: 5px;
   }
-  
+
+  #Vermelho {
+    background: no-repeat center/70% url(../img/Vermelho/Robotron\ 2000\ -\ Vermelho.png);
+    background-color: var(--main-branco);
+  }
+
+  #Azul {
+    background: no-repeat center/70% url(../img/Azul/Robotron\ 2000\ -\ Azul.png);
+    background-color: var(--main-branco);
+  }
+
+  #Amarelo {
+    background: no-repeat center/70% url(../img/Amarelo/Robotron\ 2000\ -\ Amarelo.png);
+    background-color: var(--main-branco);
+  }
+
+  #Branco {
+    background: no-repeat center/70% url(../img/Branco/Robotron\ 2000\ -\ Branco.png);
+    background-color: var(--main-branco);
+  }
+
+  #Preto {
+    background: no-repeat center/70% url(../img/Preto/Robotron\ 2000\ -\ Preto.png);
+    background-color: var(--main-branco);
+  }
+
+  #Rosa {
+    background: no-repeat center/70% url(../img/Rosa/Robotron\ 2000\ -\ Rosa.png);
+    background-color: var(--main-branco);
+  }
+
   .botao:hover {
     box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
   }
